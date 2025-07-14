@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moon Filling Station</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 40px 10%;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .services ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .services li {
+            background-color: #e6f0ff;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 10%;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .hours {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Moon Filling Station</h1>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>Welcome to Moon Filling Station</h2>
+        <p>Your trusted fuel partner, delivering quality petrol and diesel with excellent customer service.</p>
+        <p>Moon Filling Station has been serving the community with reliable and quality fuel products. We ensure timely service and customer satisfaction every time you visit us.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Petrol & Diesel Fuel</li>
+            <li>Lubricants & Engine Oils</li>
+            <li>Vehicle Air Check</li>
+            <li>24/7 Service Available</li>
+            <li>Clean and Safe Environment</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> Gaila Wala Road, Ada Pathan Wala</p>
+            <p><strong>Phone:</strong> 0300-0850254</p>
+            <p><strong>Email:</strong> [Client ka email]</p>
+        </div>
+        <div class="hours">
+            <p><strong>Operating Hours:</strong> Monday to Sunday: 7:00 AM – 11:00 PM</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 Moon Filling Station. All rights reserved.
+</footer>
+
+</body>
+</html>
